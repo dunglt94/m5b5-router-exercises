@@ -1,4 +1,5 @@
 import {useNavigate, useLocation} from "react-router-dom";
+import Employee from "./Employee";
 
 function Home() {
     const navigate = useNavigate();
@@ -14,6 +15,9 @@ function Home() {
         <div>
             <h1>Hello {state.account}!!! </h1>
             <button onClick={handleLogout}>Logout</button>
+            <br/>
+            <br/>
+            <Employee/>
         </div>
     );
 }

@@ -1,0 +1,29 @@
+#employees {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#employees td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#employees tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#employee {
+    border-collapse: collapse;
+}
+
+#employee td, th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+div {
+    padding-left: 5px;
+}
